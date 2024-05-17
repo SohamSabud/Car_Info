@@ -1,0 +1,75 @@
+body{
+    
+    font-family:'Poppins',sans-serif
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialaised;
+
+}section.blogs{
+    background-color: #000000;
+    
+    padding-bottom: 20rem;
+}
+section.blogs .section.heading{
+    color: #e8f1f0;
+    padding-left: 600PX;
+    padding-top: 20px;
+    size: 80px;
+}
+section.blogs .section.heading .h1 .span{
+    color:rgb(22, 212, 212);
+}
+section.blogs .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+section.blogs .card-wrapper .card{
+    
+    background-color: #F2F2F2;
+}
+section.blogs .card-wrapper .card .card-content{
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+section.blogs .card-wrapper .card .card-content h1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+section.blogs .card-wrapper .card .card-content a{
+    color: rgba(0,0,0,0.7);
+    text-decoration: none;
+}
+section.blogs .card-wrapper .card .card-content a:hover{
+    color: rgb(22, 212, 212);
+}
+
+section.blogs .card-wrapper .card .card-content span{
+    color: #9ea9a8;
+    size: 0.8rem;
+}
+section.blogs .card-wrapper .card .card-content p{
+    font-family: 'Lato',sans-serif;
+    color: #9ea9a8;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+section.blogs .card-wrapper .card .card-content a.read-more{
+    font-size: 0.8rem;
+}
+section .container .blogs .btnn{
+    text-decoration: none;
+}

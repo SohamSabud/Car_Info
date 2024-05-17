@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>carinfo</title>
+    <link rel="icon" type="images-icon" href="./images/logon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <HEADER>
+        <div class="container">
+        
+        <nav class="flex items-centre justify-between">
+            <div class="left flex items-centre ">
+                <div class="branding">
+                    <img src="./images/logon.png" alt="" class="src" height="100px">
+                </div>
+                <div>
+                    <a href="#">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#services">SERVICES</a>
+                    <a href="#blogs">Best Sellers</a>
+                    <a href="#review">REVIEWS</a>
+                    <a href="#contact">CONTACT US</a>
+                     
+                </div>
+            </div>
+            <div class="right">
+                <a href="sign_in.html"><button  class="btn btn-primary">SIGN IN</button></a>
+            </div>
+        </nav>
+        <div class="hero flex items-centre justify-between">
+            <div class="left">
+                <img src="./images/carlog.png" alt="Soham" height="200" width="400">
+                
+            </div>
+            <div class="right" class="flex">
+
+                <h6>CAR INFO</h6>
+                
+                    <H1>Let's Drive Your<span> Dreams</span></H1>
+                    <P><h3>.....For The Few Who Know The Difference.</h3></P>
+           <DIV>
+                    <a href="#free"><button class="btn btn-secondary">SEARCH</button></a>
+                </DIV>
+                </div>
+        </div>
+    </div>
+    </HEADER>
+    
+
+        
+    <section id="about" class="about">
+        <div class="container flex items-centre justify-between">
+            <div class="flex-1">
+                <img class="about-me-img" src="carimmg.jpg" alt="soham" height="500">
+            </div>
+            <div class="flex-1 items-centre justify-between"  >
+                <h1>About <span>Us</span></h1>
+                <h3>Car Info</h3>
+                <p>Hi! My name is Soham Sabud. I am the owner of <br><a href="#">CAR INFO</a>.<br> Here, we pride ourselves on being your go-to source<br> for comprehensive car information. Whether you're a seasoned<br> car enthusiast, a first-time buyer, or someone simply<br> looking to stay informed about the latest trends <br>and developments in the automotive world.<br>WELCOME TO OUR WEBSITE!</p>
+                
+            <div class="social" class="flex-1">
+                <a href="https://facebook.com/soham.sabud.9"><img src="./images/face.PNG" height="33"></a>
+                <a href="https://instagram.com/car_info___"><img src="./images/insta.PNG"height="32"></a>
+                <a href="https://twitter.com/sabudsoham"><img src="./images/tweet.PNG" height="34"></a>
+                <a href="https://linkedin.com/in/soham-sabud-37717322a"><img src="./images/linked.PNG" height="36"></a>
+            
+
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <H1 class="section heading"><span>Our </span>Services</H1>
+            <p>I provide Visual Design and Storytelling,Typography and Media Productions.</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="247.png">
+                    <h3>24*7 CUSTOMER SERVICE</h3>
+                    <P>We are there for you whenever you need us.</P>
+                </div>
+                <div class="card">
+                    <img src="ship.png">
+                    <h3>FREE SHIPPING</h3>
+                    <P>Get free shipping anywhere in India.</P>
+               
+                </div> <div class="card">
+                    <img src="carreg.png">
+                    <h3>VEHICLE HISTORY REPORTS</h3>
+                    <p>We provide access to vehicle history reports for each car listed on the website.</p>
+                
+                </div> <div class="card">
+                    <img src="finance.png">
+                    <h3>ONLINE FINANCING</h3>
+                    <P>We have partnership with financial institutions and insurance companies to offer seamless online financing and insurance options. </P>
+                     
+                </div> <div class="card">
+                    <img src="list.png">
+                    <h3>COMPREHENSIVE VEHICLE LISTING</h3>
+                    <P>Offer a user-friendly interface where customers can browse through a wide range of vehicles with detailed descriptions, specifications, and high-quality images.</P>
+                
+            </div>
+        </div>
+    </section>
+    <section id="free" class="freelancing">
+        
+        <h1>Search Yor Vehicle.</h1>
+        <p>We provide high quality solutions to your vehicle related problems.</p>
+        <button class="btn btn-primary" onclick="openPopup1()">SEARCH</button>
+        <div class="popup1" id="popup1">
+            <div class="dropdown">
+                <button class="dropbtn">Enter Company</button>
+                <div class="dropdown-content">
+                <a href="lambo.html">Lamborghini</a>
+                <a href="audi.html">Audi</a>
+                <a href="Hyun.html">Hyundai</a>
+                </div>
+
+            </div>
+            
+            <button type="button" onclick="closePopup1()">Close</button>
+        </div>
+    </div>
+    <script>
+        let popup =document.getElementById("popup1");
+    
+        function openPopup1(){
+            popup.classList.add("open-popup1");
+        }
+        function closePopup1(){
+            popup.classList.remove("open-popup1");
+        }
+    </script>
+
+    </section>
+    
+    
+          
+          <section id="review" class="reviews">
+        <div class="container">
+            <h1 class="section heading"><span>Our </span>Clients</h1>
+            <p>We provide high quality solutions to your business problems.</p>
+            <div class="slider">
+                <div class="slide">
+                    <img src="./images/lady.png">
+                    <p>Wonderful Experience!</p>
+                    <span><b>- Maya,Pedigree Company</b></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/lady.png">
+                    <p>Fast Delivery</p>
+                    <span><b>- Chaya,Mumbai</b></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/lady.png">
+                    <p>5-star services</p>
+                    <span><b>- Kaya, West Bengal</b></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/lady.png">
+                    <p>Huge Collection of cars..Loved It!</p>
+                    <span><b>- Anup,Assam</b></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/lady.png">
+                    <p>Trusted Partners</p>
+                    <span><b>- Ratan Tata,TATA Company</b></span>
+                </div>
+            </div>
+            <div class="slider-dots"></div>
+        </div>
+
+    </section>
+  
+   
+        <section id="blogs" class="blogs">
+            <div class="container">
+            <h1 class="section heading"><span>Best </span>Sellers</h1>
+            <p>Here are our best  selling Car/Bike/Scooter.</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/bugggg.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="#">
+                            <h1>Buggati Cheron</h1>
+                        </a>
+                        <span>On Road Price: 3,10,00,000/-</span>
+                        <p>The Bugatti Chiron is a mid-engine two-seater sports car designed and developed in Germany by Bugatti Engineering GmbH[8] and manufactured in Molsheim, France, by French automobile manufacturer Bugatti Automobiles S.A.S. </p>
+                        <a href="buga.html">Read More..</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-wrapper1">
+                        <img src="./images/reeeeeee.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="#">
+                            <h1>Royal Enfield</h1>
+                        </a>
+                        <span>On Road Price: 2,30,000/-</span>
+                        <p>Royal Enfield Classic 350 is a model of Royal Enfield motorcycles which have been in production since 2009. The Classic series of Royal Enfield motorcycles are inspired by the Royal Enfield G2 350cc Bullet motorcycle, first produced in 1948.</p>
+                        <a href="re.html">Read More..</a>
+                    </div>
+                </div> <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/ntorq125.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="#">
+                            <h1>Ntorq 125</h1>
+                        </a>
+                        <span>On Road Price: 1,10,000/-</span>
+                        <p>TVS Ntorq 125 is a motor scooter manufactured by TVS Motor Company in India. It is powered by a single cylinder, four stroke, 3 valve, TVS and delivers 6.9 kW (9.4 PS) at 7500 rpm. The scooter delivers a pick-up of 0 to 60 km/h in 6.5 seconds.</p>
+                        <a href="ntorq.html">Read More..</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h1 class="section heading">Contact  <span> Us</span></h1>
+            <p>We provide high quality solutions to your vehicle related problems.</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="./images/download (1).png" alt="" height="60">
+                    <h1>Call us on</h1>
+                    <h6>+918436597056</h6>
+                </div>
+                <div class="card">
+                    <img src="./images/emaildj.webp" alt="" height="60">
+                    <h1>Email Me At</h1>
+                    <h6>carinfo@gmail.com</h6>
+                </div>
+                <div class="card">
+                    
+                    <h1><div class="card">
+                        <img src="./images/home11.PNG" alt="" height="60">
+                    
+                    </div>Visit Us</h1>
+                    <h6>225,Haldia,721607</h6>
+                </div>
+            </div>
+            <div class="input-wrap">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+            </div>
+            <div class="input-wrap-2">
+                <input type="text" placeholder="Your Subject....">
+                <br>
+                <br>
+                <textarea type="content" placeholder="Your Message..."  ></textarea>
+               
+            </div>
+            
+        </div>
+        <div class="btn-wrapper">
+        <button class="btn btn-primary">Send Message</button>
+    </div>
+    </section>
+    <footer>
+        <img class="footer-logo" src="./images/logon.png" alt="" height="150">
+      
+        </div>
+        <div class="copyright">
+            Copyright 2024 © Name PSD Template. All Rights Reserved.
+        </div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Login & Registration Form | Codehal</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+</html>

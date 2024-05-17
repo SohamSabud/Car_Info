@@ -1,0 +1,7 @@
+countries = ["India","Germany","Japan","India"]
+x=input("Enter the country:")
+if x in countries:
+    print("It is present at index",countries.index(x))
+else:
+    print("Not a member")  
+    print(countries)  
